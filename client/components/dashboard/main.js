@@ -14,7 +14,7 @@ const Main = () => {
             <Link to='/dashboard/profile/04a5b97e-6681-4a48-a3bb-229bb9e405c2'>Go To Profile</Link>
           </div>
           <div>
-            <Link to='/dashboard/'>Go To Root</Link>
+            <Link to='/dashboard'>Go To Root</Link>
           </div>
         </div>
       </div>
