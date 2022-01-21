@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 
-import Head from '../head'
+import Header from '../header'
 
 const Profile = () => {
   const { username } = useParams()
   return (
     <div>
-      <Head title="Hello" />
+      <Header />
       <div className="flex items-center justify-center">
         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
-        <div id="title">Profile</div>
+          <div id="title">Profile</div>
           <div>
             <Link to="/dashboard">Go To Root</Link>
           </div>
