@@ -24,7 +24,7 @@ const Header = () => {
           Tailwind CSS
         </button>
       </div>
-      {toggled && (
+      {true && (
         <div id="menu" className="block">
           <a href="https://www.google.com/">
             <button
