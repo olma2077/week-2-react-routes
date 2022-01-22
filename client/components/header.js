@@ -24,7 +24,7 @@ const Header = () => {
           Tailwind CSS
         </button>
       </div>
-      {true && (
+      {toggled && (
         <div id="menu" className="block">
           <button
             type="button"
