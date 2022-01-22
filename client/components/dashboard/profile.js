@@ -10,7 +10,7 @@ const Profile = () => {
       <Head title="Hello" />
       <div className="flex items-center justify-center">
         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
-        <div id="title">Profile</div>
+          <div id="title">Profile</div>
           <div>
             <Link to="/dashboard">Go To Root</Link>
           </div>
